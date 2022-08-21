@@ -1,6 +1,6 @@
 # Estudando design patterns com typescript
 
-## ![alt text](./assets/dev.png)
+[![alt text](https://blog.rocketseat.com.br/content/images/size/w2000/2019/03/5_ferramentas_em_alta_para_desenvolvedores_React.png "Link para o site de onde a arte saiu :)")](https://blog.rocketseat.com.br/5-ferramentas-em-alta-react/)
 
 ---
 
@@ -47,3 +47,18 @@ const instance2 = Singleton.instance;
 
 console.log(instance1 === instance2); // true
 ```
+
+### Builder
+
+Esse padrão sugere a separação do código que cria e o código que usa o objeto.<br>
+
+- trata da criação de objetos complexos
+
+  - Construtores muito complexos.
+  - Composição de vários objetos (composite).
+  - Algoritmos de criação de objetos complexos.
+
+- Permite a criação de objetos em etapas.
+- Permite method chaining.
+- O objeto final pode variar de acordo com a necessidade.
+- É um padrão complexo.
