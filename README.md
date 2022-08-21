@@ -6,7 +6,7 @@
 
 ## Objetivo
 
-O objetivo desse repositório é passar por alguns padrões de projeto do livro GOF usando a linguagem typescript
+O objetivo desse repositório é passar por alguns padrões de projeto do livro GOF usando a linguagem typescript.
 
 ---
 
