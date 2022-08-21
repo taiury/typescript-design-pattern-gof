@@ -1,4 +1,4 @@
-# Estudando design pattern com typescript
+# Estudando design patterns com typescript
 
 ## ![alt text](./assets/dev.png)
 
