@@ -3,13 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/taiury/typescript-design-pattern-gof.git",
-  "author": "taiury <alexandretaiury@gmail.com>",
+  "author": "taiury",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.7.8",
-    "typescript": "^4.7.4"
-  },
-  "dependencies": {
+    "typescript": "^4.7.4",
     "ts-node": "^10.9.1"
   }
 }

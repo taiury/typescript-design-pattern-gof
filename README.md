@@ -4,6 +4,12 @@
 
 ---
 
+## Objetivo
+
+O objetivo desse repositório é passar por alguns padrões de projeto do livro GOF usando a linguagem typescript
+
+---
+
 ## Instalando dependências
 
 Após baixar o Repositório em seu computador use o comando `yarn install` ou `npm install` dentro da pasta para instalar as dependencias.
