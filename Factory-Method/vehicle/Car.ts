@@ -8,6 +8,6 @@ export class Car implements Vehicle {
   }
 
   stop(): void {
-    console.log(`${this.name} está buscando`);
+    console.log(`${this.name} parou`);
   }
 }

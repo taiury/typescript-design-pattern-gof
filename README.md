@@ -168,6 +168,8 @@ console.log(person1 === Object.getPrototypeOf(person2)); // true
 
 O objetivo do factory method é definir uma interface para criar um objeto, mas deixar as subclasses decidirem que classe instanciar. O factory method permite adiar a instanciação para as subclasses.
 
+exemplo em código:
+
 ```ts
 type Car = { model: string; engine: string };
 type CarPrototype = { showDetails(): void };
