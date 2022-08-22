@@ -163,3 +163,28 @@ console.log(person2.name); // Taiury
 // person1 é o protótipo de person2
 console.log(person1 === Object.getPrototypeOf(person2)); // true
 ```
+
+### Factory method
+
+```ts
+type Car = { model: string; engine: string };
+type CarPrototype = { showDetails(): void };
+
+const carPrototype: CarPrototype = {
+  showDetails(): void {
+    console.log(this);
+  },
+};
+
+const carFactory = (model: string, engine: string): Car & CarPrototype => {
+  const idAsAPrivateMember = Math.floor(Math.random() * 1000);
+  const carObj = Object.create(carPrototype);
+  return Object.assign(carObj, { id: idAsAPrivateMember, model, engine });
+};
+
+const car1 = carFactory("Celta", "1.0 EFI");
+car1.showDetails(); // { id: random, model: 'Celta', engine: '1.0 EFI' }
+
+const car2 = carFactory("Fusca", "1.6L F4");
+car2.showDetails(); // { id: random, model: 'Fusca', engine: '1.6L F4' }
+```
