@@ -36,7 +36,7 @@ Eu estou usando o editor de texto `vscode` e um plugin chamado `code runner` par
 
 - Bridge - separa uma abstração da sua implementação, de modo que as duas possam variar independentemente.
 
-- Composite - compor objetos em estruturas de árvore para representarem hierarquias partes/todo. Composite permite aos cliente tratarem de maneira uniforme objetos individuais e composições de objetos.
+- Composite - compor objetos em estruturas de árvore para representarem hierarquias partes/todo. Composite permite aos cliente tratarem de maneira uniforme objetos individuais e composições de objetos, [veja um exemplo aqui](./structural/Composite/README.md).
 
 - Decorator - atribui responsabilidades adicionais a um objeto dinamicamente. Os Decorators fornecem uma alternativa flexível à subclasses para extensão da funcionalidade.
 
