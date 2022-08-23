@@ -55,5 +55,4 @@ console.log(person2.name); // Taiury
 
 // person1 é o protótipo de person2
 console.log(person1 === Object.getPrototypeOf(person2)); // true
-`
 ```

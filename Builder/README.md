@@ -54,5 +54,3 @@ const person2 = personBuilder.setName("Isa").setAge(23).result;
 ```
 
 O exemplo acima não representa muito bem o padrão Builder, esta sendo usado apenas para fins didáticos, para um exemplo mais realista veja a pasta `Builder`.
-
-``
