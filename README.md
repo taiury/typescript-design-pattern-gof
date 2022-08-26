@@ -38,7 +38,7 @@ Eu estou usando o editor de texto `vscode` e um plugin chamado `code runner` par
 
 - Composite - compor objetos em estruturas de árvore para representarem hierarquias partes/todo. Composite permite aos cliente tratarem de maneira uniforme objetos individuais e composições de objetos, [veja um exemplo aqui](./structural/Composite/README.md).
 
-- Decorator - atribui responsabilidades adicionais a um objeto dinamicamente. Os Decorators fornecem uma alternativa flexível à subclasses para extensão da funcionalidade.
+- Decorator - atribui responsabilidades adicionais a um objeto dinamicamente. Os Decorators fornecem uma alternativa flexível à subclasses para extensão da funcionalidade, [veja um exemplo aqui](./structural/Decorator/README.md).
 
 - Façade - fornece uma interface unifica para um conjunto de interfaces em um subsistema. O Façade define uma interface de nível mais alto que torna o subsistema mais fácil de usar.
 
