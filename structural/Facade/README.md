@@ -36,15 +36,24 @@ export class PersonBuilder {
 export class PersonFacade {
   private personBuilder = new PersonBuilder();
 
-  makePerson1(): void {
-    // person1 = { name: 'Taiury', age: 21 }
-    const person1 = personBuilder.setName("Taiury").setAge(21).result;
+  makePerson1(): Person {
+    const person1 = this.personBuilder.setName("Taiury").setAge(21).result;
+    return person1;
   }
 
-  makePerson2(): void {
-    personBuilder.newPerson(); // clear personBuilder
-    // person2 = { name: 'Isa', age: 23 }
-    const person2 = personBuilder.setName("Isa").setAge(23).result;
+  makePerson2(): Person {
+    this.personBuilder.newPerson(); // clear personBuilder
+    const person2 = this.personBuilder.setName("Isa").setAge(23).result;
+    return person2;
   }
 }
+
+// client code
+const personFacade = new PersonFacade();
+
+// person1
+console.log(personFacade.makePerson1()); // person1 = { name: 'Taiury', age: 21 }
+
+// person2
+console.log(personFacade.makePerson2()); // person2 = { name: 'Isa', age: 23 }
 ```
