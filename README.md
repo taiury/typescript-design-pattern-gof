@@ -40,7 +40,7 @@ Eu estou usando o editor de texto `vscode` e um plugin chamado `code runner` par
 
 - Decorator - atribui responsabilidades adicionais a um objeto dinamicamente. Os Decorators fornecem uma alternativa flexível à subclasses para extensão da funcionalidade, [veja um exemplo aqui](./structural/Decorator/README.md).
 
-- Façade - fornece uma interface unifica para um conjunto de interfaces em um subsistema. O Façade define uma interface de nível mais alto que torna o subsistema mais fácil de usar, [veja um exemplo aqui](./structural/Fa%C3%A7ade/README.md).
+- Façade - fornece uma interface unifica para um conjunto de interfaces em um subsistema. O Façade define uma interface de nível mais alto que torna o subsistema mais fácil de usar, [veja um exemplo aqui](./structural/Facade/README.md).
 
 - Flyweight - usa compartilhamento para suportar grandes quantidades de objetos de granularidade fina, de maneira eficiente.
 
