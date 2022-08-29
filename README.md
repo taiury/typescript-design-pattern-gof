@@ -44,4 +44,4 @@ Eu estou usando o editor de texto `vscode` e um plugin chamado `code runner` par
 
 - Flyweight - usa compartilhamento para suportar grandes quantidades de objetos de granularidade fina, de maneira eficiente.
 
-- Proxy - fornece um objeto representante (surrogate), ou um marcador de outro objeto para controlar o acesso ao mesmo.
+- Proxy - fornece um objeto representante (surrogate), ou um marcador de outro objeto para controlar o acesso ao mesmo, [veja um exemplo aqui](./structural/Proxy/README.md).
