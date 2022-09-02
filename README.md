@@ -42,6 +42,6 @@ Eu estou usando o editor de texto `vscode` e um plugin chamado `code runner` par
 
 - Façade - fornece uma interface unifica para um conjunto de interfaces em um subsistema. O Façade define uma interface de nível mais alto que torna o subsistema mais fácil de usar, [veja um exemplo aqui](./structural/Facade/README.md).
 
-- Flyweight - usa compartilhamento para suportar grandes quantidades de objetos de granularidade fina, de maneira eficiente.
+- Flyweight - usa compartilhamento para suportar grandes quantidades de objetos de granularidade fina, de maneira eficiente, [veja um exemplo aqui](./structural/Flyweight/README.md).
 
 - Proxy - fornece um objeto representante (surrogate), ou um marcador de outro objeto para controlar o acesso ao mesmo, [veja um exemplo aqui](./structural/Proxy/README.md).

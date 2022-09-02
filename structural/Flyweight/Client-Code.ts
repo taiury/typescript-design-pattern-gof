@@ -1,0 +1,32 @@
+import { deliveryContext } from "./delivery/Delivery-Context";
+import { DeliveryFactory } from "./delivery/Delivery-Factory";
+
+const factory = new DeliveryFactory();
+deliveryContext(factory, "Taiury", "20A", "Av Brasil", "SP");
+deliveryContext(factory, "Helena", "20A", "Av Brasil", "SP");
+deliveryContext(factory, "Luiz", "502", "Av Brasil", "SP");
+deliveryContext(factory, "Gabriel", "4C", "Rua A", "MG");
+deliveryContext(factory, "Isa", "4C", "Rua B", "MG");
+deliveryContext(factory, "Taiury", "20A", "Av Brasil", "SP");
+deliveryContext(factory, "Helena", "20A", "Av Brasil", "SP");
+deliveryContext(factory, "Luiz", "502", "Av Brasil", "SP");
+deliveryContext(factory, "Gabriel", "4C", "Rua A", "MG");
+deliveryContext(factory, "Isa", "4C", "Rua B", "MG");
+deliveryContext(factory, "Taiury", "20A", "Av Brasil", "SP");
+deliveryContext(factory, "Helena", "20A", "Av Brasil", "SP");
+deliveryContext(factory, "Luiz", "502", "Av Brasil", "SP");
+deliveryContext(factory, "Gabriel", "4C", "Rua A", "MG");
+deliveryContext(factory, "Isa", "4C", "Rua B", "MG");
+deliveryContext(factory, "Taiury", "20A", "Av Brasil", "SP");
+deliveryContext(factory, "Helena", "20A", "Av Brasil", "SP");
+deliveryContext(factory, "Luiz", "502", "Av Brasil", "SP");
+deliveryContext(factory, "Gabriel", "4C", "Rua A", "MG");
+deliveryContext(factory, "Isa", "4C", "Rua B", "MG");
+deliveryContext(factory, "Taiury", "20A", "Av Brasil", "SP");
+deliveryContext(factory, "Helena", "20A", "Av Brasil", "SP");
+deliveryContext(factory, "Luiz", "502", "Av Brasil", "SP");
+deliveryContext(factory, "Gabriel", "4C", "Rua A", "MG");
+deliveryContext(factory, "Isa", "4C", "Rua B", "MG");
+
+console.log();
+console.log(factory.getlocations());
