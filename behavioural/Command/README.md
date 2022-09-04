@@ -2,6 +2,8 @@
 
 O padrão command encapsula uma solicitação como um objeto, desta forma permitindo que você parametrize clientes com diferentes solicitações, enfileire ou registre (log) solicitações e suporte operações que podem ser desfeitas.
 
+Exemplo em código:
+
 ```ts
 // Receiver
 export class SmartHouseLight {
