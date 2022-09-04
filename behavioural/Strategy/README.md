@@ -2,6 +2,8 @@
 
 O padrão strategy define uma família de algoritmos, encapsular cada um deles e fazê-los intercambiáveis. O strategy permite que o algoritmo varie independentemente dos clientes que o utilizam.
 
+Exemplo em código:
+
 ```ts
 // Context
 export interface ECommerceProductProtocol {
