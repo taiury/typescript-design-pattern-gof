@@ -1,7 +1,9 @@
-import { LightIntensityCommand } from "./Light-Intensity-Command";
-import { LightPowerCommand } from "./Light-Power-Command";
-import { SmartHouseApp } from "./Smart-House-App";
-import { SmartHouseLight } from "./Smart-House-Light";
+import {
+  LightIntensityCommand,
+  LightPowerCommand,
+  SmartHouseApp,
+  SmartHouseLight,
+} from "./Smart-House";
 
 // Receiver
 const bedroomLight = new SmartHouseLight("Luz Quarto");
