@@ -50,7 +50,7 @@ Eu estou usando o editor de texto `vscode` e um plugin chamado `code runner` par
 
 - Chain of responsibility - evita o acoplamento do remetente de uma solicitação ao seu destinatário, dando a mais de um objeto a chance de tratar a solicitação. Encadeia os objetos receptores e passa a solicitação ao longo da cadeia até que um objeto a trate.
 
-- Command - encapsula uma solicitação como um objeto, desta forma permitindo que você parametrize clientes com diferentes solicitações, enfileire ou registre (log) solicitações e suporte operações que podem ser desfeitas, [veja um exemplo aqui](./behavioural/Strategy/README.md).
+- Command - encapsula uma solicitação como um objeto, desta forma permitindo que você parametrize clientes com diferentes solicitações, enfileire ou registre (log) solicitações e suporte operações que podem ser desfeitas, [veja um exemplo aqui](./behavioural/Command/README.md).
 
 - Interpreter - dada uma linguagem, define um representação para sua gramática juntamente com um interpretador que usa a representação para interpretar sentenças nesta linguagem.
 
