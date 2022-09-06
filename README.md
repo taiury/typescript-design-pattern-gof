@@ -20,37 +20,37 @@ Eu estou usando o editor de texto `vscode` e um plugin chamado `code runner` par
 
 ## Padrões de projeto de criação
 
-- Abstract Factory - Fornecer uma interface para criação de famílias de objetos relacionados ou dependentes sem especificar suas classes concretas, [veja um exemplo aqui](./creational/Abstract-Factory/README.md).
+- Abstract Factory - Fornecer uma interface para criação de famílias de objetos relacionados ou dependentes sem especificar suas classes concretas, [veja um exemplo aqui](./creational/Abstract-Factory).
 
-- Builder - Separar a construção de um objeto complexo de sua representação, de modo que o mesmo processo de construção possa criar diferentes representações, [veja um exemplo aqui](./creational/Builder/README.md).
+- Builder - Separar a construção de um objeto complexo de sua representação, de modo que o mesmo processo de construção possa criar diferentes representações, [veja um exemplo aqui](./creational/Builder).
 
-- Factory Method - Definir uma interface para criar um objeto, mas deixar as subclasses decidirem qual classe a ser instanciada. O Factory Method permite a uma classe postergar (defer) a instanciação às subclasses, [veja um exemplo aqui](./creational/Factory-Method/README.md).
+- Factory Method - Definir uma interface para criar um objeto, mas deixar as subclasses decidirem qual classe a ser instanciada. O Factory Method permite a uma classe postergar (defer) a instanciação às subclasses, [veja um exemplo aqui](./creational/Factory-Method).
 
-- Prototype - Especificar os tipos de objetos a serem criados usando uma instância prototípica e criar novos objetos copiando este protótipo, [veja um exemplo aqui](./creational/Prototype/README.md).
+- Prototype - Especificar os tipos de objetos a serem criados usando uma instância prototípica e criar novos objetos copiando este protótipo, [veja um exemplo aqui](./creational/Prototype).
 
-- Singleton - Garantir que uma classe tenha somente uma instância e fornecer um ponto global de acesso para ela, [veja um exemplo aqui](./creational/Singleton/README.md).
+- Singleton - Garantir que uma classe tenha somente uma instância e fornecer um ponto global de acesso para ela, [veja um exemplo aqui](./creational/Singleton).
 
 ## Padrões de projeto estruturais
 
-- Adapter - converte a interface de uma classe em outra interface esperada pelos clientes. O Adapter permite que certas classes trabalhem em conjunto, pois de outra forma seria impossível por causa de suas interfaces incompatíveis, [veja um exemplo aqui](./structural/Adapter/README.md).
+- Adapter - converte a interface de uma classe em outra interface esperada pelos clientes. O Adapter permite que certas classes trabalhem em conjunto, pois de outra forma seria impossível por causa de suas interfaces incompatíveis, [veja um exemplo aqui](./structural/Adapter).
 
-- Bridge - separa uma abstração da sua implementação, de modo que as duas possam variar independentemente, [veja um exemplo aqui](./structural/Bridge/README.md).
+- Bridge - separa uma abstração da sua implementação, de modo que as duas possam variar independentemente, [veja um exemplo aqui](./structural/Bridge).
 
-- Composite - compor objetos em estruturas de árvore para representarem hierarquias partes/todo. Composite permite aos cliente tratarem de maneira uniforme objetos individuais e composições de objetos, [veja um exemplo aqui](./structural/Composite/README.md).
+- Composite - compor objetos em estruturas de árvore para representarem hierarquias partes/todo. Composite permite aos cliente tratarem de maneira uniforme objetos individuais e composições de objetos, [veja um exemplo aqui](./structural/Composite).
 
-- Decorator - atribui responsabilidades adicionais a um objeto dinamicamente. Os Decorators fornecem uma alternativa flexível à subclasses para extensão da funcionalidade, [veja um exemplo aqui](./structural/Decorator/README.md).
+- Decorator - atribui responsabilidades adicionais a um objeto dinamicamente. Os Decorators fornecem uma alternativa flexível à subclasses para extensão da funcionalidade, [veja um exemplo aqui](./structural/Decorator).
 
-- Façade - fornece uma interface unifica para um conjunto de interfaces em um subsistema. O Façade define uma interface de nível mais alto que torna o subsistema mais fácil de usar, [veja um exemplo aqui](./structural/Facade/README.md).
+- Façade - fornece uma interface unifica para um conjunto de interfaces em um subsistema. O Façade define uma interface de nível mais alto que torna o subsistema mais fácil de usar, [veja um exemplo aqui](./structural/Facade).
 
-- Flyweight - usa compartilhamento para suportar grandes quantidades de objetos de granularidade fina, de maneira eficiente, [veja um exemplo aqui](./structural/Flyweight/README.md).
+- Flyweight - usa compartilhamento para suportar grandes quantidades de objetos de granularidade fina, de maneira eficiente, [veja um exemplo aqui](./structural/Flyweight).
 
-- Proxy - fornece um objeto representante (surrogate), ou um marcador de outro objeto para controlar o acesso ao mesmo, [veja um exemplo aqui](./structural/Proxy/README.md).
+- Proxy - fornece um objeto representante (surrogate), ou um marcador de outro objeto para controlar o acesso ao mesmo, [veja um exemplo aqui](./structural/Proxy).
 
 ## Padrões de projeto comportamentais
 
 - Chain of responsibility - evita o acoplamento do remetente de uma solicitação ao seu destinatário, dando a mais de um objeto a chance de tratar a solicitação. Encadeia os objetos receptores e passa a solicitação ao longo da cadeia até que um objeto a trate.
 
-- Command - encapsula uma solicitação como um objeto, desta forma permitindo que você parametrize clientes com diferentes solicitações, enfileire ou registre (log) solicitações e suporte operações que podem ser desfeitas, [veja um exemplo aqui](./behavioural/Command/README.md).
+- Command - encapsula uma solicitação como um objeto, desta forma permitindo que você parametrize clientes com diferentes solicitações, enfileire ou registre (log) solicitações e suporte operações que podem ser desfeitas, [veja um exemplo aqui](./behavioural/Command).
 
 - Interpreter - dada uma linguagem, define um representação para sua gramática juntamente com um interpretador que usa a representação para interpretar sentenças nesta linguagem.
 
@@ -58,7 +58,7 @@ Eu estou usando o editor de texto `vscode` e um plugin chamado `code runner` par
 
 - Mediator - define um objeto que encapsula como um conjunto de objetos interage. O mediator promove o acoplamento fraco ao evitar que os objetos se refiram explicitamente uns aos outros, permitindo que você varie suas interações independentemente.
 
-- Memento - sem violar a encapsulação, captura e externaliza um estado interno de um objeto, de modo que o mesmo possa posteriormente ser restaurado para este estado, [veja um exemplo aqui](./behavioural/Memento/README.md).
+- Memento - sem violar a encapsulação, captura e externaliza um estado interno de um objeto, de modo que o mesmo possa posteriormente ser restaurado para este estado, [veja um exemplo aqui](./behavioural/Memento).
 
 - Observer - define uma dependência um para muitos entre objetos, de modo que, quando um objeto muda de estado, todos os seus dependentes são automaticamente notificados e atualizados.
 
