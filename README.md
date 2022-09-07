@@ -56,7 +56,7 @@ Eu estou usando o editor de texto `vscode` e um plugin chamado `code runner` par
 
 - Iterator - fornece uma maneira de acessar sequencialmente os elementos de um objeto agregado sem expor sua representação subjacente.
 
-- Mediator - define um objeto que encapsula como um conjunto de objetos interage. O mediator promove o acoplamento fraco ao evitar que os objetos se refiram explicitamente uns aos outros, permitindo que você varie suas interações independentemente.
+- Mediator - define um objeto que encapsula como um conjunto de objetos interage. O mediator promove o acoplamento fraco ao evitar que os objetos se refiram explicitamente uns aos outros, permitindo que você varie suas interações independentemente, [veja um exemplo aqui](./behavioural/Mediator).
 
 - Memento - sem violar a encapsulação, captura e externaliza um estado interno de um objeto, de modo que o mesmo possa posteriormente ser restaurado para este estado, [veja um exemplo aqui](./behavioural/Memento).
 
