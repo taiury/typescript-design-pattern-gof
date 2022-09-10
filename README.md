@@ -67,4 +67,4 @@ Eu estou usando o editor de texto `vscode` e um plugin chamado `code runner` par
 
 - Template method - define o esqueleto de um algoritmo em uma operação, postergando a definição de alguns passos para subclasses. O template method permite que as subclasses redefinam certos passos de um algoritmo sem mudar sua estrutura, [veja um exemplo aqui](./behavioural/Templete-Method).
 
-- Visitor - representa uma operação a ser executada sobre os elementos da estrutura de um objeto. O visitor permite que você defina uma nova operação sem mudar as classes dos elementos sobre os quais opera.
+- Visitor - representa uma operação a ser executada sobre os elementos da estrutura de um objeto. O visitor permite que você defina uma nova operação sem mudar as classes dos elementos sobre os quais opera, [veja um exemplo aqui](./behavioural/Visitor).
